@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="pkV2BackgroundTitle pkV2BackgroundDesc">
+  <title id="pkV2BackgroundTitle">Education and certification</title>
+  <desc id="pkV2BackgroundDesc">Preet Karwal holds an MCA and BCA from Maharshi Dayanand University and has a resume-listed certification in Networking Fundamentals and Ethical Hacking.</desc>
+  <defs>
+    <style>
+      .pk-v2-bg-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; }
+      .pk-v2-bg-body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      .pk-v2-bg-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .pk-v2-bg-heading { font-size: 48px; font-weight: 780; letter-spacing: -2px; }
+      .pk-v2-bg-degree { font-size: 34px; font-weight: 740; letter-spacing: -1px; }
+      .pk-v2-bg-copy { font-size: 16px; font-weight: 520; }
+      .pk-v2-bg-kicker { font-size: 11px; font-weight: 650; letter-spacing: 1.4px; }
+      .pk-v2-bg-mobile { display: none; }
+      @media (max-width: 520px) {
+        .pk-v2-bg-desktop { display: none; }
+        .pk-v2-bg-mobile { display: inline; }
+        .pk-v2-bg-mobile-heading { font-size: 66px; }
+        .pk-v2-bg-mobile-degree { font-size: 48px; }
+        .pk-v2-bg-mobile-copy { font-size: 28px; }
+        .pk-v2-bg-mobile-kicker { font-size: 23px; letter-spacing: 2.5px; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="320" rx="26" fill="#CDD2BE"/>
+  <path d="M32 30H1168V290H32Z" fill="none" stroke="#131B10" stroke-opacity="0.16"/>
+  <path d="M390 30V290M770 30V290" stroke="#131B10" stroke-opacity="0.16"/>
+
+  <g class="pk-v2-bg-desktop">
+    <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="62" y="70" fill="#6B7063">04 / background</text>
+    <text class="pk-v2-bg-display pk-v2-bg-heading" x="60" y="145" fill="#131B10">FOUNDATION</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="60" y="200" fill="#131B10">Formal education and security fundamentals</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="60" y="227" fill="#131B10">behind the production work.</text>
+
+    <text class="pk-v2-bg-display pk-v2-bg-degree" x="430" y="100" fill="#131B10">MCA</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="430" y="142" fill="#131B10">Maharshi Dayanand University</text>
+    <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="430" y="174" fill="#6B7063">2018—2021</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree" x="430" y="232" fill="#131B10">BCA</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="545" y="231" fill="#131B10">MDU · 2016—2018</text>
+
+    <path d="M810 62H1130" stroke="#FF4B0A" stroke-width="5"/>
+    <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="810" y="99" fill="#6B7063">resume-listed certification</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree" x="810" y="157" fill="#131B10">Networking Fundamentals</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree" x="810" y="197" fill="#131B10">&amp; Ethical Hacking</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="810" y="245" fill="#131B10">Hi-Tech Institute · New Delhi</text>
+    <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="810" y="272" fill="#6B7063">no public credential URL supplied</text>
+  </g>
+
+  <g class="pk-v2-bg-mobile">
+    <text class="pk-v2-bg-mono pk-v2-bg-kicker pk-v2-bg-mobile-kicker" x="58" y="68" fill="#6B7063">04 / education + credential</text>
+    <text class="pk-v2-bg-display pk-v2-bg-heading pk-v2-bg-mobile-heading" x="58" y="138" fill="#131B10">FOUNDATION</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree pk-v2-bg-mobile-degree" x="58" y="210" fill="#131B10">MCA · 2018—21</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree pk-v2-bg-mobile-degree" x="420" y="210" fill="#131B10">BCA · 2016—18</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy pk-v2-bg-mobile-copy" x="58" y="254" fill="#131B10">Maharshi Dayanand University, Rohtak</text>
+    <path d="M782 78V258" stroke="#FF4B0A" stroke-width="7"/>
+    <text class="pk-v2-bg-display pk-v2-bg-degree pk-v2-bg-mobile-degree" x="822" y="144" fill="#131B10">Networking +</text>
+    <text class="pk-v2-bg-display pk-v2-bg-degree pk-v2-bg-mobile-degree" x="822" y="199" fill="#131B10">Ethical Hacking</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy pk-v2-bg-mobile-copy" x="822" y="246" fill="#131B10">Hi-Tech Institute</text>
+  </g>
+</svg>

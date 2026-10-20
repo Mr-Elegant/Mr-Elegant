@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="pkV2ActivityTitle pkV2ActivityDesc">
+  <title id="pkV2ActivityTitle">Public contribution activity</title>
+  <desc id="pkV2ActivityDesc">Section marker for Preet Karwal's genuine public GitHub contribution heatmap.</desc>
+  <defs>
+    <style>
+      .pk-v2-act-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; font-size: 62px; font-weight: 800; letter-spacing: -3px; }
+      .pk-v2-act-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 650; letter-spacing: 1.5px; }
+      @media (max-width: 520px) {
+        .pk-v2-act-display { font-size: 94px; letter-spacing: -5px; }
+        .pk-v2-act-mono { font-size: 23px; letter-spacing: 2.8px; }
+        .pk-v2-act-detail { display: none; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="170" rx="24" fill="#E2E3D3"/>
+  <path d="M28 28H1172V142H28Z" fill="none" stroke="#131B10" stroke-opacity="0.18"/>
+  <path d="M28 28V142" stroke="#FF4B0A" stroke-width="6"/>
+  <text class="pk-v2-act-mono" x="58" y="62" fill="#6B7063">03 / public activity</text>
+  <text class="pk-v2-act-display" x="56" y="128" fill="#131B10">CONTRIBUTION HISTORY</text>
+  <text class="pk-v2-act-mono pk-v2-act-detail" x="1142" y="91" fill="#6B7063" text-anchor="end">public GitHub data / rolling twelve months</text>
+</svg>

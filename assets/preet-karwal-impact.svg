@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="pkV2ImpactTitle pkV2ImpactDesc">
+  <title id="pkV2ImpactTitle">Documented engineering impact</title>
+  <desc id="pkV2ImpactDesc">Resume-backed metrics: more than 15 production MERN applications, systems supporting more than 10,000 student records and 2,000 borrower profiles, 35 percent query-throughput improvement, and 40 percent less manual follow-up.</desc>
+  <defs>
+    <style>
+      .pk-v2-impact-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; }
+      .pk-v2-impact-body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      .pk-v2-impact-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .pk-v2-impact-heading { font-size: 54px; font-weight: 760; letter-spacing: -2px; }
+      .pk-v2-impact-number-xl { font-size: 174px; font-weight: 800; letter-spacing: -9px; }
+      .pk-v2-impact-number { font-size: 68px; font-weight: 780; letter-spacing: -3.5px; }
+      .pk-v2-impact-label { font-size: 16px; font-weight: 560; letter-spacing: -.2px; }
+      .pk-v2-impact-kicker { font-size: 11px; font-weight: 650; letter-spacing: 1.5px; }
+      .pk-v2-impact-mobile { display: none; }
+      @media (max-width: 520px) {
+        .pk-v2-impact-desktop { display: none; }
+        .pk-v2-impact-mobile { display: inline; }
+        .pk-v2-impact-mobile-heading { font-size: 62px; }
+        .pk-v2-impact-mobile-number { font-size: 92px; letter-spacing: -4px; }
+        .pk-v2-impact-mobile-label { font-size: 28px; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="#131B10"/>
+  <path d="M36 34H1164V486H36Z" fill="none" stroke="#AEB7A1" stroke-opacity="0.22"/>
+  <path d="M770 34V486M770 190H1164M966 190V486M36 368H770" fill="none" stroke="#AEB7A1" stroke-opacity="0.22"/>
+  <path d="M36 34V150" stroke="#FF4B0A" stroke-width="6"/>
+
+  <g class="pk-v2-impact-desktop">
+    <text class="pk-v2-impact-mono pk-v2-impact-kicker" x="66" y="72" fill="#AEB7A1">01 / documented impact</text>
+    <text class="pk-v2-impact-display pk-v2-impact-heading" x="66" y="139" fill="#F4F3E9">Evidence, at a glance.</text>
+
+    <text class="pk-v2-impact-display pk-v2-impact-number-xl" x="62" y="328" fill="#F4F3E9">15+</text>
+    <text class="pk-v2-impact-body pk-v2-impact-label" x="72" y="407" fill="#AEB7A1">production MERN applications</text>
+    <text class="pk-v2-impact-body pk-v2-impact-label" x="72" y="432" fill="#AEB7A1">built and maintained</text>
+
+    <g transform="translate(808 78)">
+      <text class="pk-v2-impact-display pk-v2-impact-number" x="0" y="0" fill="#F4F3E9">10,000+</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="38" fill="#AEB7A1">student records</text>
+    </g>
+    <g transform="translate(1002 78)">
+      <text class="pk-v2-impact-display pk-v2-impact-number" x="0" y="0" fill="#F4F3E9">2,000+</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="38" fill="#AEB7A1">borrower profiles</text>
+    </g>
+    <g transform="translate(808 302)">
+      <text class="pk-v2-impact-display pk-v2-impact-number" x="0" y="0" fill="#FF4B0A">35%</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="38" fill="#AEB7A1">query-throughput</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="62" fill="#AEB7A1">improvement</text>
+    </g>
+    <g transform="translate(1002 302)">
+      <text class="pk-v2-impact-display pk-v2-impact-number" x="0" y="0" fill="#F4F3E9">40%</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="38" fill="#AEB7A1">less manual</text>
+      <text class="pk-v2-impact-body pk-v2-impact-label" x="0" y="62" fill="#AEB7A1">follow-up</text>
+    </g>
+  </g>
+
+  <g class="pk-v2-impact-mobile">
+    <text class="pk-v2-impact-mono pk-v2-impact-kicker" x="62" y="72" fill="#AEB7A1">01 / documented impact</text>
+    <text class="pk-v2-impact-display pk-v2-impact-heading pk-v2-impact-mobile-heading" x="62" y="142" fill="#F4F3E9">Proof in the work.</text>
+
+    <g transform="translate(62 250)">
+      <text class="pk-v2-impact-display pk-v2-impact-number pk-v2-impact-mobile-number" x="0" y="0" fill="#F4F3E9">15+</text>
+      <text class="pk-v2-impact-body pk-v2-impact-mobile-label" x="0" y="46" fill="#AEB7A1">production apps</text>
+    </g>
+    <g transform="translate(420 250)">
+      <text class="pk-v2-impact-display pk-v2-impact-number pk-v2-impact-mobile-number" x="0" y="0" fill="#F4F3E9">10k+</text>
+      <text class="pk-v2-impact-body pk-v2-impact-mobile-label" x="0" y="46" fill="#AEB7A1">student records</text>
+    </g>
+    <g transform="translate(810 250)">
+      <text class="pk-v2-impact-display pk-v2-impact-number pk-v2-impact-mobile-number" x="0" y="0" fill="#F4F3E9">2k+</text>
+      <text class="pk-v2-impact-body pk-v2-impact-mobile-label" x="0" y="46" fill="#AEB7A1">borrowers</text>
+    </g>
+    <g transform="translate(62 420)">
+      <text class="pk-v2-impact-display pk-v2-impact-number pk-v2-impact-mobile-number" x="0" y="0" fill="#FF4B0A">35%</text>
+      <text class="pk-v2-impact-body pk-v2-impact-mobile-label" x="0" y="42" fill="#AEB7A1">query improvement</text>
+    </g>
+    <g transform="translate(600 420)">
+      <text class="pk-v2-impact-display pk-v2-impact-number pk-v2-impact-mobile-number" x="0" y="0" fill="#F4F3E9">40%</text>
+      <text class="pk-v2-impact-body pk-v2-impact-mobile-label" x="0" y="42" fill="#AEB7A1">less follow-up</text>
+    </g>
+  </g>
+</svg>

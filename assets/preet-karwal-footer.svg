@@ -1,43 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="136" viewBox="0 0 1200 136" role="img" aria-labelledby="pkFooterTitle pkFooterDesc">
-  <title id="pkFooterTitle">Preet Karwal — build, test, ship</title>
-  <desc id="pkFooterDesc">A warm sage six-column footer with a restrained orange delivery signal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="pkV2FooterTitle pkV2FooterDesc">
+  <title id="pkV2FooterTitle">Contact Preet Karwal</title>
+  <desc id="pkV2FooterDesc">Closing contact plate with GitHub, LinkedIn, portfolio, and email destinations.</desc>
   <defs>
     <style>
-      .pk-footer-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', Arial, sans-serif; font-stretch: condensed; font-size: 31px; font-weight: 800; letter-spacing: -1.3px; }
-      .pk-footer-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 650; letter-spacing: 1.8px; }
+      .pk-v2-foot-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; }
+      .pk-v2-foot-body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      .pk-v2-foot-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .pk-v2-foot-heading { font-size: 72px; font-weight: 800; letter-spacing: -3.5px; }
+      .pk-v2-foot-link { font-size: 17px; font-weight: 650; }
+      .pk-v2-foot-kicker { font-size: 11px; font-weight: 650; letter-spacing: 1.5px; }
+      .pk-v2-foot-mobile { display: none; }
       @media (max-width: 520px) {
-        .pk-footer-display { font-size: 52px; letter-spacing: -2px; }
-        .pk-footer-mono { font-size: 25px; letter-spacing: 3px; }
-        .pk-footer-detail { display: none; }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .pk-footer-motion { display: none; }
+        .pk-v2-foot-desktop { display: none; }
+        .pk-v2-foot-mobile { display: inline; }
+        .pk-v2-foot-mobile-heading { font-size: 86px; letter-spacing: -4px; }
+        .pk-v2-foot-mobile-copy { font-size: 28px; }
+        .pk-v2-foot-mobile-kicker { font-size: 23px; letter-spacing: 2.5px; }
       }
     </style>
   </defs>
-  <rect width="1200" height="136" rx="28" fill="#E2E3D3"/>
-  <rect x="16" y="16" width="1168" height="104" rx="22" fill="#CDD2BE"/>
-  <rect x="16.5" y="16.5" width="1167" height="103" rx="21.5" fill="none" stroke="#F4F3E9" stroke-opacity="0.7"/>
-  <g stroke="#131B10" stroke-opacity="0.1">
-    <line x1="24" y1="20" x2="24" y2="116"/>
-    <line x1="216" y1="20" x2="216" y2="116"/>
-    <line x1="408" y1="20" x2="408" y2="116"/>
-    <line x1="600" y1="20" x2="600" y2="116"/>
-    <line x1="792" y1="20" x2="792" y2="116"/>
-    <line x1="984" y1="20" x2="984" y2="116"/>
-    <line x1="1176" y1="20" x2="1176" y2="116"/>
+  <rect width="1200" height="240" rx="28" fill="#131B10"/>
+  <path d="M32 28H1168V212H32Z" fill="none" stroke="#AEB7A1" stroke-opacity="0.23"/>
+  <path d="M786 28V212" stroke="#AEB7A1" stroke-opacity="0.23"/>
+  <path d="M32 28V212" stroke="#FF4B0A" stroke-width="6"/>
+
+  <g class="pk-v2-foot-desktop">
+    <text class="pk-v2-foot-mono pk-v2-foot-kicker" x="64" y="69" fill="#AEB7A1">05 / open channel</text>
+    <text class="pk-v2-foot-display pk-v2-foot-heading" x="62" y="151" fill="#F4F3E9">LET’S BUILD.</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link" x="64" y="190" fill="#AEB7A1">Full-stack engineering · applied AI · production systems</text>
+
+    <text class="pk-v2-foot-mono pk-v2-foot-kicker" x="828" y="68" fill="#FF4B0A">contact / verified links</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="112" fill="#F4F3E9">github.com/Mr-Elegant</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="143" fill="#F4F3E9">linkedin.com/in/preetkarwal</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="174" fill="#F4F3E9">preetportfol.vercel.app</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="205" fill="#F4F3E9">preetverma365@gmail.com</text>
   </g>
-  <text class="pk-footer-display" x="48" y="79" fill="#131B10">PREET KARWAL</text>
-  <text class="pk-footer-mono pk-footer-detail" x="408" y="73" fill="#131B10" fill-opacity="0.72">build</text>
-  <text class="pk-footer-mono pk-footer-detail" x="600" y="73" fill="#131B10" fill-opacity="0.72">test</text>
-  <text class="pk-footer-mono pk-footer-detail" x="792" y="73" fill="#131B10" fill-opacity="0.72">ship</text>
-  <path d="M850 69H1148" fill="none" stroke="#6B7063" stroke-opacity="0.44" stroke-width="2"/>
-  <circle cx="1148" cy="69" r="5" fill="#CDD2BE" stroke="#131B10" stroke-opacity="0.68" stroke-width="2"/>
-  <circle cx="850" cy="69" r="4" fill="#FF4B0A"/>
-  <g class="pk-footer-motion">
-    <path d="M850 69H1148" fill="none" stroke="#FF4B0A" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 272">
-      <animate attributeName="stroke-dashoffset" values="298;0" dur="12s" repeatCount="indefinite"/>
-    </path>
+
+  <g class="pk-v2-foot-mobile">
+    <text class="pk-v2-foot-mono pk-v2-foot-kicker pk-v2-foot-mobile-kicker" x="62" y="65" fill="#FF4B0A">05 / contact</text>
+    <text class="pk-v2-foot-display pk-v2-foot-heading pk-v2-foot-mobile-heading" x="58" y="151" fill="#F4F3E9">LET’S BUILD.</text>
+    <text class="pk-v2-foot-body pk-v2-foot-link pk-v2-foot-mobile-copy" x="62" y="199" fill="#AEB7A1">GitHub · LinkedIn · Portfolio · Email</text>
   </g>
 </svg>
-
