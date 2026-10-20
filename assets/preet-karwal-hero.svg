@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="pkHeroTitle pkHeroDesc">
+  <title id="pkHeroTitle">Preet Karwal — Full-Stack and AI Systems Engineer</title>
+  <desc id="pkHeroDesc">A warm sage editorial banner mapping Preet Karwal's working range from interface to operations.</desc>
+  <defs>
+    <pattern id="pkHeroBaseline" width="192" height="56" patternUnits="userSpaceOnUse">
+      <path d="M192 0H0V56" fill="none" stroke="#131B10" stroke-opacity="0.055"/>
+      <path d="M0 28H192" fill="none" stroke="#F4F3E9" stroke-opacity="0.2"/>
+    </pattern>
+    <style>
+      .pk-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', Arial, sans-serif; font-stretch: condensed; }
+      .pk-body { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; }
+      .pk-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .pk-label { font-size: 11px; font-weight: 650; letter-spacing: 1.5px; }
+      .pk-name { font-size: 110px; font-weight: 800; letter-spacing: -6px; }
+      .pk-role { font-size: 31px; font-weight: 650; letter-spacing: -1px; }
+      .pk-track { font-size: 10px; font-weight: 650; letter-spacing: 1.15px; }
+      .pk-mobile { display: none; }
+      @media (max-width: 520px) {
+        .pk-desktop { display: none; }
+        .pk-mobile { display: inline; }
+        .pk-mobile-label { font-size: 24px; letter-spacing: 3px; }
+        .pk-mobile-name { font-size: 126px; letter-spacing: -7px; }
+        .pk-mobile-role { font-size: 40px; letter-spacing: -1px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .pk-hero-motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="34" fill="#E2E3D3"/>
+  <rect x="20" y="20" width="1160" height="400" rx="28" fill="#CDD2BE"/>
+  <rect x="20.5" y="20.5" width="1159" height="399" rx="27.5" fill="none" stroke="#F4F3E9" stroke-opacity="0.7"/>
+  <rect x="24" y="24" width="1152" height="392" rx="24" fill="url(#pkHeroBaseline)"/>
+
+  <!-- Six-column construction grid retained from the profile system. -->
+  <g stroke="#131B10" stroke-opacity="0.105">
+    <line x1="24" y1="24" x2="24" y2="416"/>
+    <line x1="216" y1="24" x2="216" y2="416"/>
+    <line x1="408" y1="24" x2="408" y2="416"/>
+    <line x1="600" y1="24" x2="600" y2="416"/>
+    <line x1="792" y1="24" x2="792" y2="416"/>
+    <line x1="984" y1="24" x2="984" y2="416"/>
+    <line x1="1176" y1="24" x2="1176" y2="416"/>
+  </g>
+
+  <g class="pk-desktop">
+    <text class="pk-mono pk-label" x="52" y="58" fill="#131B10">PK / systems engineer</text>
+    <text class="pk-mono pk-label" x="1148" y="58" fill="#131B10" fill-opacity="0.72" text-anchor="end">Sonipat, Haryana · India</text>
+
+    <text class="pk-display pk-name" x="48" y="167" fill="#131B10">PREET</text>
+    <text class="pk-display pk-name" x="48" y="260" fill="#131B10">KARWAL</text>
+
+    <g transform="translate(792 101)">
+      <text class="pk-mono pk-label" x="0" y="0" fill="#131B10" fill-opacity="0.72">role / 01</text>
+      <text class="pk-body pk-role" x="0" y="58" fill="#131B10">Full-stack +</text>
+      <text class="pk-body pk-role" x="0" y="96" fill="#131B10">AI systems</text>
+      <text class="pk-body pk-role" x="0" y="134" fill="#131B10">engineer.</text>
+      <line x1="0" y1="163" x2="356" y2="163" stroke="#131B10" stroke-opacity="0.2"/>
+      <text class="pk-mono pk-track" x="0" y="191" fill="#131B10" fill-opacity="0.72">build / integrate / operate</text>
+    </g>
+
+    <!-- Orange is reserved for the signal moving through the system. -->
+    <g transform="translate(52 334)">
+      <path d="M0 0H1096" fill="none" stroke="#6B7063" stroke-opacity="0.44" stroke-width="2"/>
+      <g fill="#CDD2BE" stroke="#131B10" stroke-opacity="0.68" stroke-width="2">
+        <circle cx="0" cy="0" r="5"/>
+        <circle cx="216" cy="0" r="5"/>
+        <circle cx="432" cy="0" r="5"/>
+        <circle cx="648" cy="0" r="5"/>
+        <circle cx="864" cy="0" r="5"/>
+        <circle cx="1096" cy="0" r="5"/>
+      </g>
+      <circle cx="0" cy="0" r="4" fill="#FF4B0A"/>
+      <g class="pk-hero-motion">
+        <path d="M0 0H1096" fill="none" stroke="#FF4B0A" stroke-width="4" stroke-linecap="round" stroke-dasharray="34 1062">
+          <animate attributeName="stroke-dashoffset" values="1096;0" dur="10s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g class="pk-mono pk-track" fill="#131B10" fill-opacity="0.72">
+        <text x="0" y="38">interface</text>
+        <text x="216" y="38">API</text>
+        <text x="432" y="38">data</text>
+        <text x="648" y="38">model</text>
+        <text x="864" y="38">queue</text>
+        <text x="1096" y="38" text-anchor="end">operations</text>
+      </g>
+    </g>
+  </g>
+
+  <g class="pk-mobile" transform="translate(52 52)">
+    <text class="pk-mono pk-label pk-mobile-label" x="0" y="0" fill="#131B10" fill-opacity="0.72">PK / engineer</text>
+    <text class="pk-display pk-name pk-mobile-name" x="0" y="123" fill="#131B10">PREET</text>
+    <text class="pk-display pk-name pk-mobile-name" x="0" y="230" fill="#131B10">KARWAL</text>
+    <line x1="0" y1="274" x2="884" y2="274" stroke="#131B10" stroke-opacity="0.24" stroke-width="3"/>
+    <line x1="0" y1="274" x2="174" y2="274" stroke="#FF4B0A" stroke-width="6"/>
+    <text class="pk-body pk-role pk-mobile-role" x="0" y="337" fill="#131B10">Full-stack + AI systems.</text>
+  </g>
+</svg>
+
