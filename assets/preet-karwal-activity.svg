@@ -10,11 +10,19 @@
         .pk-v2-act-mono { font-size: 23px; letter-spacing: 2.8px; }
         .pk-v2-act-detail { display: none; }
       }
+      @media (prefers-reduced-motion: reduce) {
+        .pk-v2-act-motion { display: none; }
+      }
     </style>
   </defs>
   <rect width="1200" height="170" rx="24" fill="#E2E3D3"/>
   <path d="M28 28H1172V142H28Z" fill="none" stroke="#131B10" stroke-opacity="0.18"/>
   <path d="M28 28V142" stroke="#FF4B0A" stroke-width="6"/>
+  <g class="pk-v2-act-motion" opacity=".48">
+    <path d="M28 28H1172V142H28" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="54 2450">
+      <animate attributeName="stroke-dashoffset" values="0;-2504" dur="15s" repeatCount="indefinite"/>
+    </path>
+  </g>
   <text class="pk-v2-act-mono" x="58" y="62" fill="#6B7063">03 / public activity</text>
   <text class="pk-v2-act-display" x="56" y="128" fill="#131B10">CONTRIBUTION HISTORY</text>
   <text class="pk-v2-act-mono pk-v2-act-detail" x="1142" y="91" fill="#6B7063" text-anchor="end">public GitHub data / rolling twelve months</text>

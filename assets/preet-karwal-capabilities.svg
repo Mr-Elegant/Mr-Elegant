@@ -1,130 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="pkV2CapabilitiesTitle pkV2CapabilitiesDesc">
-  <title id="pkV2CapabilitiesTitle">Preet Karwal's capability architecture</title>
-  <desc id="pkV2CapabilitiesDesc">An animated system map connecting product interfaces, APIs and real-time services, data, applied AI, security controls, and infrastructure.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1190" viewBox="0 0 1200 1190" role="img" aria-labelledby="pkV2CapabilitiesTitle pkV2CapabilitiesDesc">
+  <title id="pkV2CapabilitiesTitle">Preet Karwal's skills</title>
+  <desc id="pkV2CapabilitiesDesc">Individually enclosed technology and capability chips arranged beneath six engineering categories. The chips are visual labels, not interactive controls. A restrained orange rail highlights each category in sequence.</desc>
   <defs>
     <style>
-      .pk-v2-cap-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; }
-      .pk-v2-cap-body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
-      .pk-v2-cap-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-      .pk-v2-cap-title { font-size: 51px; font-weight: 780; letter-spacing: -2px; }
-      .pk-v2-cap-category { font-size: 25px; font-weight: 720; letter-spacing: -.8px; }
-      .pk-v2-cap-tech { font-size: 15px; font-weight: 520; letter-spacing: -.1px; }
-      .pk-v2-cap-kicker { font-size: 11px; font-weight: 650; letter-spacing: 1.4px; }
-      .pk-v2-cap-mobile { display: none; }
-      @media (max-width: 520px) {
-        .pk-v2-cap-desktop { display: none; }
-        .pk-v2-cap-mobile { display: inline; }
-        .pk-v2-cap-mobile-title { font-size: 58px; letter-spacing: -2px; }
-        .pk-v2-cap-mobile-category { font-size: 38px; letter-spacing: -1px; }
-        .pk-v2-cap-mobile-tech { font-size: 27px; letter-spacing: 0; }
-        .pk-v2-cap-mobile-kicker { font-size: 24px; letter-spacing: 2.8px; }
+      .pk-cap-display{font-family:'Arial Narrow','Helvetica Neue Condensed','Liberation Sans Narrow',system-ui,sans-serif;font-stretch:condensed}
+      .pk-cap-body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+      .pk-cap-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .pk-cap-title{font-size:64px;font-weight:790;letter-spacing:-2.8px}
+      .pk-cap-category{font-size:27px;font-weight:760;letter-spacing:-.8px}
+      .pk-cap-category-long{font-size:24px}
+      .pk-cap-kicker{font-size:12px;font-weight:680;letter-spacing:1.5px}
+      .pk-cap-chip text{font-size:20px;font-weight:650;fill:#131B10}
+      .pk-cap-chip rect{fill:#CDD2BE;stroke:#131B10;stroke-opacity:.16}
+      .pk-cap-chip path{stroke:#F4F3E9;stroke-opacity:.62}
+      @media(max-width:520px){
+        .pk-cap-title{font-size:72px}.pk-cap-category{font-size:32px}.pk-cap-category-long{font-size:27px}.pk-cap-kicker{font-size:20px;letter-spacing:2.2px}.pk-cap-chip text{font-size:24px}.pk-cap-chip-compact text{font-size:20px}
       }
-      @media (prefers-reduced-motion: reduce) {
-        .pk-v2-cap-motion { display: none; }
-      }
+      @media(prefers-reduced-motion:reduce){.pk-cap-motion{display:none}}
     </style>
   </defs>
+  <rect width="1200" height="1190" rx="28" fill="#F4F3E9"/>
+  <path d="M24 24H1176V1166H24Z" fill="none" stroke="#131B10" stroke-opacity=".11"/>
+  <path d="M300 132V1146" stroke="#131B10" stroke-opacity=".11"/>
+  <path class="pk-cap-motion" d="M300 132V1146" stroke="#FF4B0A" stroke-opacity=".34" stroke-width="3" stroke-linecap="round" stroke-dasharray="42 972">
+    <animate attributeName="stroke-dashoffset" values="0;-1014" dur="12s" repeatCount="indefinite"/>
+  </path>
 
-  <rect width="1200" height="650" rx="28" fill="#F4F3E9"/>
-  <rect x="24" y="24" width="286" height="602" rx="20" fill="#131B10"/>
-  <path d="M334 24V626M334 124H1176M334 218H1176M334 312H1176M334 406H1176M334 500H1176" fill="none" stroke="#131B10" stroke-opacity="0.13"/>
+  <text class="pk-cap-mono pk-cap-kicker" x="54" y="67" fill="#6B7063">02 / VERIFIED TECHNOLOGY SYSTEM</text>
+  <text class="pk-cap-display pk-cap-title" x="54" y="121" fill="#131B10">Skills</text>
 
-  <g class="pk-v2-cap-desktop">
-    <text class="pk-v2-cap-mono pk-v2-cap-kicker" x="56" y="66" fill="#AEB7A1">02 / capability architecture</text>
-    <text class="pk-v2-cap-display pk-v2-cap-title" x="56" y="150" fill="#F4F3E9">THE</text>
-    <text class="pk-v2-cap-display pk-v2-cap-title" x="56" y="207" fill="#F4F3E9">WORKING</text>
-    <text class="pk-v2-cap-display pk-v2-cap-title" x="56" y="264" fill="#F4F3E9">SYSTEM.</text>
-    <text class="pk-v2-cap-body pk-v2-cap-tech" x="56" y="336" fill="#AEB7A1">Six connected layers.</text>
-    <text class="pk-v2-cap-body pk-v2-cap-tech" x="56" y="361" fill="#AEB7A1">One delivery path.</text>
-    <path d="M56 416H266" stroke="#AEB7A1" stroke-opacity="0.35"/>
-    <text class="pk-v2-cap-mono pk-v2-cap-kicker" x="56" y="455" fill="#FF4B0A">signal / system flow</text>
-    <text class="pk-v2-cap-body pk-v2-cap-tech" x="56" y="517" fill="#AEB7A1">The line moves through the</text>
-    <text class="pk-v2-cap-body pk-v2-cap-tech" x="56" y="542" fill="#AEB7A1">same layers used to ship</text>
-    <text class="pk-v2-cap-body pk-v2-cap-tech" x="56" y="567" fill="#AEB7A1">production software.</text>
-
-    <g transform="translate(370 76)">
-      <path d="M0 0V474" stroke="#6B7063" stroke-opacity="0.5" stroke-width="3"/>
-      <g fill="#F4F3E9" stroke="#131B10" stroke-width="2">
-        <circle cx="0" cy="0" r="7"/><circle cx="0" cy="94" r="7"/><circle cx="0" cy="188" r="7"/>
-        <circle cx="0" cy="282" r="7"/><circle cx="0" cy="376" r="7"/><circle cx="0" cy="474" r="7"/>
-      </g>
-      <circle cx="0" cy="0" r="5" fill="#FF4B0A" stroke="none"/>
-      <g class="pk-v2-cap-motion">
-        <path d="M0 0V474" stroke="#FF4B0A" stroke-width="5" stroke-linecap="round" stroke-dasharray="34 440">
-          <animate attributeName="stroke-dashoffset" values="474;0" dur="7s" repeatCount="indefinite"/>
-        </path>
-      </g>
-
-      <g transform="translate(34 -10)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">Product interfaces</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="-7" fill="#6B7063">React · Next.js · TypeScript · Redux Toolkit · TanStack Query</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="17" fill="#6B7063">Tailwind CSS · shadcn/ui</text>
-      </g>
-      <g transform="translate(34 84)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">APIs + real-time</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="-7" fill="#6B7063">Node.js · Express · REST · GraphQL · Socket.IO</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="17" fill="#6B7063">SSE · BullMQ · Redis Pub/Sub</text>
-      </g>
-      <g transform="translate(34 178)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">Data systems</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="0" fill="#6B7063">MongoDB · PostgreSQL · MySQL · Prisma · Redis</text>
-      </g>
-      <g transform="translate(34 272)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">Applied AI</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="-7" fill="#6B7063">Vercel AI SDK · OpenRouter · Ollama · Gemini</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="17" fill="#6B7063">Mastra AI · MCP · tool calling</text>
-      </g>
-      <g transform="translate(34 366)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">Security controls</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="-7" fill="#6B7063">JWT · OAuth 2.0 · RBAC · Passport.js</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="17" fill="#6B7063">bcrypt · HMAC-SHA256 · input sanitization</text>
-      </g>
-      <g transform="translate(34 464)">
-        <text class="pk-v2-cap-body pk-v2-cap-category" x="0" y="0" fill="#131B10">Infrastructure</text>
-        <text class="pk-v2-cap-body pk-v2-cap-tech" x="260" y="0" fill="#6B7063">AWS · Docker · Kubernetes · Nginx · PM2 · GitHub CI/CD · Vercel</text>
-      </g>
-    </g>
+  <g transform="translate(24 142)">
+    <rect width="1152" height="130" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="98" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">01 / PRODUCT UI</text>
+    <text class="pk-cap-display pk-cap-category" x="42" y="91" fill="#131B10">Product interfaces</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 18)"><rect width="82" height="38" rx="11"/><path d="M8 3H74"/><text x="16" y="26">React</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(408 18)"><rect width="94" height="38" rx="11"/><path d="M8 3H86"/><text x="16" y="26">Next.js</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(512 18)"><rect width="126" height="38" rx="11"/><path d="M8 3H118"/><text x="16" y="26">TypeScript</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(648 18)"><rect width="150" height="38" rx="11"/><path d="M8 3H142"/><text x="16" y="26">Redux Toolkit</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 70)"><rect width="174" height="38" rx="11"/><path d="M8 3H166"/><text x="16" y="26">TanStack Query</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(500 70)"><rect width="146" height="38" rx="11"/><path d="M8 3H138"/><text x="16" y="26">Tailwind CSS</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(656 70)"><rect width="124" height="38" rx="11"/><path d="M8 3H116"/><text x="16" y="26">shadcn/ui</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="0s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="98" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect>
   </g>
 
-  <g class="pk-v2-cap-mobile">
-    <rect x="24" y="24" width="1152" height="602" rx="20" fill="#131B10"/>
-    <text class="pk-v2-cap-mono pk-v2-cap-kicker pk-v2-cap-mobile-kicker" x="54" y="66" fill="#AEB7A1">02 / capability architecture</text>
-    <text class="pk-v2-cap-display pk-v2-cap-title pk-v2-cap-mobile-title" x="54" y="130" fill="#F4F3E9">THE WORKING SYSTEM.</text>
-    <path d="M344 174V568" stroke="#AEB7A1" stroke-opacity="0.38" stroke-width="4"/>
-    <g fill="#131B10" stroke="#F4F3E9" stroke-width="3">
-      <circle cx="344" cy="174" r="9"/><circle cx="344" cy="253" r="9"/><circle cx="344" cy="332" r="9"/>
-      <circle cx="344" cy="411" r="9"/><circle cx="344" cy="490" r="9"/><circle cx="344" cy="568" r="9"/>
-    </g>
-    <circle cx="344" cy="174" r="6" fill="#FF4B0A" stroke="none"/>
-    <g class="pk-v2-cap-motion">
-      <path d="M344 174V568" stroke="#FF4B0A" stroke-width="7" stroke-linecap="round" stroke-dasharray="42 352">
-        <animate attributeName="stroke-dashoffset" values="394;0" dur="7s" repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <g transform="translate(384 181)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">Product interface</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">React · Next.js · TypeScript · Redux · TanStack Query</text>
-    </g>
-    <g transform="translate(384 260)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">APIs + real-time</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">Node · Express · REST · GraphQL · Socket.IO · SSE</text>
-    </g>
-    <g transform="translate(384 339)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">Data systems</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">MongoDB · PostgreSQL · MySQL · Prisma · Redis</text>
-    </g>
-    <g transform="translate(384 418)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">Applied AI</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">AI SDK · OpenRouter · Ollama · Gemini · Mastra · MCP</text>
-    </g>
-    <g transform="translate(384 497)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">Security</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">JWT · OAuth · RBAC · bcrypt · HMAC · sanitization</text>
-    </g>
-    <g transform="translate(384 576)">
-      <text class="pk-v2-cap-body pk-v2-cap-category pk-v2-cap-mobile-category" x="0" y="0" fill="#F4F3E9">Infrastructure</text>
-      <text class="pk-v2-cap-body pk-v2-cap-tech pk-v2-cap-mobile-tech" x="0" y="31" fill="#AEB7A1">AWS · Docker · Kubernetes · Nginx · CI/CD · Vercel</text>
-    </g>
+  <g transform="translate(24 282)">
+    <rect width="1152" height="130" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="98" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">02 / SERVICES</text>
+    <text class="pk-cap-display pk-cap-category" x="42" y="91" fill="#131B10">APIs + real-time</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 18)"><rect width="94" height="38" rx="11"/><path d="M8 3H86"/><text x="16" y="26">Node.js</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(420 18)"><rect width="102" height="38" rx="11"/><path d="M8 3H94"/><text x="16" y="26">Express</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(532 18)"><rect width="76" height="38" rx="11"/><path d="M8 3H68"/><text x="16" y="26">REST</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(618 18)"><rect width="104" height="38" rx="11"/><path d="M8 3H96"/><text x="16" y="26">GraphQL</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(732 18)"><rect width="116" height="38" rx="11"/><path d="M8 3H108"/><text x="16" y="26">Socket.IO</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 70)"><rect width="64" height="38" rx="11"/><path d="M8 3H56"/><text x="16" y="26">SSE</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(390 70)"><rect width="92" height="38" rx="11"/><path d="M8 3H84"/><text x="16" y="26">BullMQ</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(492 70)"><rect width="170" height="38" rx="11"/><path d="M8 3H162"/><text x="16" y="26">Redis Pub/Sub</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="2s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="98" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="2s" repeatCount="indefinite"/></rect>
   </g>
+
+  <g transform="translate(24 422)">
+    <rect width="1152" height="130" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="98" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">03 / DATA</text>
+    <text class="pk-cap-display pk-cap-category" x="42" y="91" fill="#131B10">Data systems</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 46)"><rect width="116" height="38" rx="11"/><path d="M8 3H108"/><text x="16" y="26">MongoDB</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(442 46)"><rect width="140" height="38" rx="11"/><path d="M8 3H132"/><text x="16" y="26">PostgreSQL</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(592 46)"><rect width="90" height="38" rx="11"/><path d="M8 3H82"/><text x="16" y="26">MySQL</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(692 46)"><rect width="90" height="38" rx="11"/><path d="M8 3H82"/><text x="16" y="26">Prisma</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(792 46)"><rect width="82" height="38" rx="11"/><path d="M8 3H74"/><text x="16" y="26">Redis</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="4s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="98" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="4s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <g transform="translate(24 562)">
+    <rect width="1152" height="270" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="238" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">04 / APPLIED AI</text>
+    <text class="pk-cap-display pk-cap-category" x="42" y="91" fill="#131B10">Applied AI</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 18)"><rect width="166" height="38" rx="11"/><path d="M8 3H158"/><text x="16" y="26">Vercel AI SDK</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(492 18)"><rect width="150" height="38" rx="11"/><path d="M8 3H142"/><text x="16" y="26">OpenRouter</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(652 18)"><rect width="92" height="38" rx="11"/><path d="M8 3H84"/><text x="16" y="26">Ollama</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(754 18)"><rect width="172" height="38" rx="11"/><path d="M8 3H164"/><text x="16" y="26">Google Gemini</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 70)"><rect width="122" height="38" rx="11"/><path d="M8 3H114"/><text x="16" y="26">Mastra AI</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(448 70)"><rect width="72" height="38" rx="11"/><path d="M8 3H64"/><text x="16" y="26">MCP</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(530 70)"><rect width="136" height="38" rx="11"/><path d="M8 3H128"/><text x="16" y="26">tool calling</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(676 70)"><rect width="142" height="38" rx="11"/><path d="M8 3H134"/><text x="16" y="26">RAG Systems</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(828 70)"><rect width="120" height="38" rx="11"/><path d="M8 3H112"/><text x="16" y="26">AI Agents</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(958 70)"><rect width="130" height="38" rx="11"/><path d="M8 3H122"/><text x="16" y="26">Automation</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(316 122)"><rect width="238" height="38" rx="11"/><path d="M8 3H230"/><text x="16" y="26">Production LLM Systems</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(564 122)"><rect width="186" height="38" rx="11"/><path d="M8 3H178"/><text x="16" y="26">LLM Architecture</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(760 122)"><rect width="232" height="38" rx="11"/><path d="M8 3H224"/><text x="16" y="26">Multi-model Workflows</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(316 174)"><rect width="184" height="38" rx="11"/><path d="M8 3H176"/><text x="16" y="26">Token Optimization</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(510 174)"><rect width="206" height="38" rx="11"/><path d="M8 3H198"/><text x="16" y="26">Prompt Engineering</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(726 174)"><rect width="196" height="38" rx="11"/><path d="M8 3H188"/><text x="16" y="26">Agentic Workflows</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(316 226)"><rect width="200" height="38" rx="11"/><path d="M8 3H192"/><text x="16" y="26">Local LLM Inference</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(526 226)"><rect width="246" height="38" rx="11"/><path d="M8 3H238"/><text x="16" y="26">Context Window Pruning</text></g>
+    <g class="pk-cap-chip pk-cap-chip-compact pk-cap-body" transform="translate(782 226)"><rect width="274" height="38" rx="11"/><path d="M8 3H266"/><text x="16" y="26">Semantic Response Caching</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="6s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="238" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="6s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <g transform="translate(24 842)">
+    <rect width="1152" height="130" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="98" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">05 / SECURITY</text>
+    <text class="pk-cap-display pk-cap-category" x="42" y="91" fill="#131B10">Security controls</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 18)"><rect width="64" height="38" rx="11"/><path d="M8 3H56"/><text x="16" y="26">JWT</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(390 18)"><rect width="108" height="38" rx="11"/><path d="M8 3H100"/><text x="16" y="26">OAuth 2.0</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(508 18)"><rect width="76" height="38" rx="11"/><path d="M8 3H68"/><text x="16" y="26">RBAC</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(594 18)"><rect width="136" height="38" rx="11"/><path d="M8 3H128"/><text x="16" y="26">Passport.js</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 70)"><rect width="94" height="38" rx="11"/><path d="M8 3H86"/><text x="16" y="26">bcrypt</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(420 70)"><rect width="176" height="38" rx="11"/><path d="M8 3H168"/><text x="16" y="26">HMAC-SHA256</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(606 70)"><rect width="212" height="38" rx="11"/><path d="M8 3H204"/><text x="16" y="26">input sanitization</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="8s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="98" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="8s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <g transform="translate(24 982)">
+    <rect width="1152" height="130" rx="18" fill="#E2E3D3"/>
+    <rect x="16" y="16" width="5" height="98" rx="2.5" fill="#77806C"/>
+    <text class="pk-cap-mono pk-cap-kicker" x="42" y="42" fill="#6B7063">06 / DELIVERY</text>
+    <text class="pk-cap-display pk-cap-category pk-cap-category-long" x="42" y="91" fill="#131B10">Infrastructure + delivery</text>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 18)"><rect width="64" height="38" rx="11"/><path d="M8 3H56"/><text x="16" y="26">AWS</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(390 18)"><rect width="90" height="38" rx="11"/><path d="M8 3H82"/><text x="16" y="26">Docker</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(490 18)"><rect width="132" height="38" rx="11"/><path d="M8 3H124"/><text x="16" y="26">Kubernetes</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(632 18)"><rect width="88" height="38" rx="11"/><path d="M8 3H80"/><text x="16" y="26">Nginx</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(730 18)"><rect width="68" height="38" rx="11"/><path d="M8 3H60"/><text x="16" y="26">PM2</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(316 70)"><rect width="148" height="38" rx="11"/><path d="M8 3H140"/><text x="16" y="26">GitHub CI/CD</text></g>
+    <g class="pk-cap-chip pk-cap-body" transform="translate(474 70)"><rect width="92" height="38" rx="11"/><path d="M8 3H84"/><text x="16" y="26">Vercel</text></g>
+    <path class="pk-cap-motion" d="M48 4H1128" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="48 1032" opacity=".46"><animate attributeName="stroke-dashoffset" values="0;-1080" dur="12s" begin="10s" repeatCount="indefinite"/></path>
+    <rect class="pk-cap-motion" x="16" y="16" width="5" height="98" rx="2.5" fill="#FF4B0A" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.13;.2;1" dur="12s" begin="10s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <text class="pk-cap-mono pk-cap-kicker" x="54" y="1154" fill="#77806C">INDIVIDUAL SKILL CHIPS / STATIC LABELS / VERIFIED INDEX BELOW</text>
 </svg>

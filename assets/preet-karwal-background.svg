@@ -19,11 +19,22 @@
         .pk-v2-bg-mobile-copy { font-size: 28px; }
         .pk-v2-bg-mobile-kicker { font-size: 23px; letter-spacing: 2.5px; }
       }
+      @media (prefers-reduced-motion: reduce) {
+        .pk-v2-bg-motion { display: none; }
+      }
     </style>
   </defs>
   <rect width="1200" height="320" rx="26" fill="#CDD2BE"/>
   <path d="M32 30H1168V290H32Z" fill="none" stroke="#131B10" stroke-opacity="0.16"/>
   <path d="M390 30V290M770 30V290" stroke="#131B10" stroke-opacity="0.16"/>
+  <g class="pk-v2-bg-motion" opacity=".45">
+    <path d="M32 30H1168V290H32" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="62 2700">
+      <animate attributeName="stroke-dashoffset" values="0;-2762" dur="17s" repeatCount="indefinite"/>
+    </path>
+    <path d="M390 30V290H770V30" fill="none" stroke="#77806C" stroke-width="3" stroke-linecap="round" stroke-dasharray="36 840">
+      <animate attributeName="stroke-dashoffset" values="0;-876" dur="14s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
   <g class="pk-v2-bg-desktop">
     <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="62" y="70" fill="#6B7063">04 / background</text>
@@ -41,8 +52,7 @@
     <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="810" y="99" fill="#6B7063">resume-listed certification</text>
     <text class="pk-v2-bg-display pk-v2-bg-degree" x="810" y="157" fill="#131B10">Networking Fundamentals</text>
     <text class="pk-v2-bg-display pk-v2-bg-degree" x="810" y="197" fill="#131B10">&amp; Ethical Hacking</text>
-    <text class="pk-v2-bg-body pk-v2-bg-copy" x="810" y="245" fill="#131B10">Hi-Tech Institute · New Delhi</text>
-    <text class="pk-v2-bg-mono pk-v2-bg-kicker" x="810" y="272" fill="#6B7063">no public credential URL supplied</text>
+    <text class="pk-v2-bg-body pk-v2-bg-copy" x="810" y="254" fill="#131B10">Hi-Tech Institute · New Delhi</text>
   </g>
 
   <g class="pk-v2-bg-mobile">

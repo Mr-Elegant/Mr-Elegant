@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="84" viewBox="0 0 320 84" role="img" aria-labelledby="pkV2EmailTitle pkV2EmailDesc">
+  <title id="pkV2EmailTitle">Email</title>
+  <desc id="pkV2EmailDesc">Send an email to Preet Karwal.</desc>
+  <style>
+    .label{font:700 22px system-ui,-apple-system,'Segoe UI',sans-serif}.meta{font:600 9px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.2px}
+    @media(prefers-reduced-motion:reduce){.motion{display:none}}
+  </style>
+  <rect width="320" height="84" rx="15" fill="#E2E3D3"/>
+  <rect x="4" y="4" width="312" height="76" rx="12" fill="#CDD2BE" stroke="#F4F3E9"/>
+  <path d="M16 16V68" stroke="#FF4B0A" stroke-width="4"/>
+  <text class="meta" x="32" y="25" fill="#6B7063">direct / message</text>
+  <text class="label" x="32" y="55" fill="#131B10">Email</text>
+  <path d="M194 58H286" stroke="#131B10" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="286" cy="58" r="12" fill="none" stroke="#131B10" stroke-opacity="0.5"/>
+  <path d="M280 58H291M287 54L291 58L287 62" fill="none" stroke="#131B10" stroke-width="1.8"/>
+  <g class="motion"><path d="M194 58H274" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="16 64"><animate attributeName="stroke-dashoffset" values="80;0" dur="5s" begin="3s" repeatCount="indefinite"/></path></g>
+</svg>

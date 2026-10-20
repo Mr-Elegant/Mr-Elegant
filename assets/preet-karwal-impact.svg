@@ -19,6 +19,9 @@
         .pk-v2-impact-mobile-number { font-size: 92px; letter-spacing: -4px; }
         .pk-v2-impact-mobile-label { font-size: 28px; }
       }
+      @media (prefers-reduced-motion: reduce) {
+        .pk-v2-impact-motion { display: none; }
+      }
     </style>
   </defs>
 
@@ -26,6 +29,11 @@
   <path d="M36 34H1164V486H36Z" fill="none" stroke="#AEB7A1" stroke-opacity="0.22"/>
   <path d="M770 34V486M770 190H1164M966 190V486M36 368H770" fill="none" stroke="#AEB7A1" stroke-opacity="0.22"/>
   <path d="M36 34V150" stroke="#FF4B0A" stroke-width="6"/>
+  <g class="pk-v2-impact-motion" opacity=".52">
+    <path d="M36 34H1164V486H36" fill="none" stroke="#FF4B0A" stroke-width="3" stroke-linecap="round" stroke-dasharray="62 3020">
+      <animate attributeName="stroke-dashoffset" values="0;-3082" dur="16s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
   <g class="pk-v2-impact-desktop">
     <text class="pk-v2-impact-mono pk-v2-impact-kicker" x="66" y="72" fill="#AEB7A1">01 / documented impact</text>

@@ -1,44 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="pkV2FooterTitle pkV2FooterDesc">
-  <title id="pkV2FooterTitle">Contact Preet Karwal</title>
-  <desc id="pkV2FooterDesc">Closing contact plate with GitHub, LinkedIn, portfolio, and email destinations.</desc>
-  <defs>
-    <style>
-      .pk-v2-foot-display { font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow', system-ui, sans-serif; font-stretch: condensed; }
-      .pk-v2-foot-body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
-      .pk-v2-foot-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-      .pk-v2-foot-heading { font-size: 72px; font-weight: 800; letter-spacing: -3.5px; }
-      .pk-v2-foot-link { font-size: 17px; font-weight: 650; }
-      .pk-v2-foot-kicker { font-size: 11px; font-weight: 650; letter-spacing: 1.5px; }
-      .pk-v2-foot-mobile { display: none; }
-      @media (max-width: 520px) {
-        .pk-v2-foot-desktop { display: none; }
-        .pk-v2-foot-mobile { display: inline; }
-        .pk-v2-foot-mobile-heading { font-size: 86px; letter-spacing: -4px; }
-        .pk-v2-foot-mobile-copy { font-size: 28px; }
-        .pk-v2-foot-mobile-kicker { font-size: 23px; letter-spacing: 2.5px; }
-      }
-    </style>
-  </defs>
-  <rect width="1200" height="240" rx="28" fill="#131B10"/>
-  <path d="M32 28H1168V212H32Z" fill="none" stroke="#AEB7A1" stroke-opacity="0.23"/>
-  <path d="M786 28V212" stroke="#AEB7A1" stroke-opacity="0.23"/>
-  <path d="M32 28V212" stroke="#FF4B0A" stroke-width="6"/>
-
-  <g class="pk-v2-foot-desktop">
-    <text class="pk-v2-foot-mono pk-v2-foot-kicker" x="64" y="69" fill="#AEB7A1">05 / open channel</text>
-    <text class="pk-v2-foot-display pk-v2-foot-heading" x="62" y="151" fill="#F4F3E9">LET’S BUILD.</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link" x="64" y="190" fill="#AEB7A1">Full-stack engineering · applied AI · production systems</text>
-
-    <text class="pk-v2-foot-mono pk-v2-foot-kicker" x="828" y="68" fill="#FF4B0A">contact / verified links</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="112" fill="#F4F3E9">github.com/Mr-Elegant</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="143" fill="#F4F3E9">linkedin.com/in/preetkarwal</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="174" fill="#F4F3E9">preetportfol.vercel.app</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link" x="828" y="205" fill="#F4F3E9">preetverma365@gmail.com</text>
+  <title id="pkV2FooterTitle">Open a channel with Preet Karwal</title>
+  <desc id="pkV2FooterDesc">A closing editorial plate introducing four verified contact routes shown directly below.</desc>
+  <defs><style>
+    .display{font-family:'Arial Narrow','Helvetica Neue Condensed',system-ui,sans-serif}.body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.heading{font-size:72px;font-weight:800;letter-spacing:-3.5px}.copy{font-size:17px;font-weight:600}.kicker{font-size:11px;font-weight:650;letter-spacing:1.5px}.mobile{display:none}
+    @media(max-width:520px){.desktop{display:none}.mobile{display:inline}.m-heading{font-size:79px;letter-spacing:-3.8px}.m-copy{font-size:28px}.m-kicker{font-size:23px;letter-spacing:2.5px}}
+    @media(prefers-reduced-motion:reduce){.foot-motion{display:none}}
+  </style></defs>
+  <rect width="1200" height="240" rx="28" fill="#131B10"/><path d="M32 28H1168V212H32Z" fill="none" stroke="#AEB7A1" stroke-opacity=".23"/><path d="M792 28V212" stroke="#AEB7A1" stroke-opacity=".23"/><path d="M32 28V212" stroke="#FF4B0A" stroke-width="6"/>
+  <g class="desktop">
+    <text class="mono kicker" x="64" y="69" fill="#AEB7A1">05 / open channel</text><text class="display heading" x="62" y="151" fill="#F4F3E9">LET’S BUILD.</text><text class="body copy" x="64" y="190" fill="#AEB7A1">Full-stack engineering · applied AI · production systems</text>
+    <text class="mono kicker" x="834" y="69" fill="#FF4B0A">CONTACT / VERIFIED ROUTES</text><text class="display" x="832" y="145" fill="#F4F3E9" font-size="66" font-weight="790" letter-spacing="-3">04</text><text class="body copy" x="930" y="122" fill="#F4F3E9">Choose a channel</text><text class="body copy" x="930" y="151" fill="#AEB7A1">from the controls below.</text><path d="M834 183H1127" stroke="#AEB7A1" stroke-opacity=".35"/><circle cx="1139" cy="183" r="7" fill="#FF4B0A"/>
+    <g class="foot-motion" transform="translate(1139 183)">
+      <circle r="13" fill="none" stroke="#FF4B0A" stroke-width="2" opacity="0">
+        <animate attributeName="opacity" values="0;.55;0" dur="4.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale" values=".72;1.45;1.45" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
   </g>
-
-  <g class="pk-v2-foot-mobile">
-    <text class="pk-v2-foot-mono pk-v2-foot-kicker pk-v2-foot-mobile-kicker" x="62" y="65" fill="#FF4B0A">05 / contact</text>
-    <text class="pk-v2-foot-display pk-v2-foot-heading pk-v2-foot-mobile-heading" x="58" y="151" fill="#F4F3E9">LET’S BUILD.</text>
-    <text class="pk-v2-foot-body pk-v2-foot-link pk-v2-foot-mobile-copy" x="62" y="199" fill="#AEB7A1">GitHub · LinkedIn · Portfolio · Email</text>
+  <g class="mobile">
+    <text class="mono kicker m-kicker" x="62" y="65" fill="#FF4B0A">05 / four verified routes</text><text class="display heading m-heading" x="58" y="151" fill="#F4F3E9">LET’S BUILD.</text><text class="body copy m-copy" x="62" y="199" fill="#AEB7A1">Choose a channel from the controls below.</text>
+    <g class="foot-motion" transform="translate(1110 62)">
+      <circle r="9" fill="#FF4B0A"/><circle r="18" fill="none" stroke="#FF4B0A" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;.5;0" dur="4.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="scale" values=".75;1.4;1.4" dur="4.8s" repeatCount="indefinite"/></circle>
+    </g>
   </g>
 </svg>

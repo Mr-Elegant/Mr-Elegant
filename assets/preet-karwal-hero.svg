@@ -2,6 +2,11 @@
   <title id="pkV2HeroTitle">Preet Karwal — Full-Stack and AI Systems Engineer</title>
   <desc id="pkV2HeroDesc">Editorial portfolio cover introducing Preet Karwal and his full-stack and AI systems focus.</desc>
   <defs>
+    <radialGradient id="pkV2HeroAmbient" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F4F3E9" stop-opacity=".5"/>
+      <stop offset=".58" stop-color="#AEB7A1" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#AEB7A1" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="pkV2HeroGrid" width="190" height="58" patternUnits="userSpaceOnUse">
       <path d="M190 0H0V58" fill="none" stroke="#131B10" stroke-opacity="0.055"/>
     </pattern>
@@ -34,6 +39,11 @@
   <g class="pk-v2-desktop">
     <rect x="782" y="24" width="394" height="472" rx="24" fill="#131B10"/>
     <path d="M782 48V472" stroke="#FF4B0A" stroke-width="5"/>
+    <g class="pk-v2-hero-motion" opacity=".3">
+      <ellipse cx="298" cy="170" rx="250" ry="168" fill="url(#pkV2HeroAmbient)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;86 22;0 0" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
 
     <text class="pk-v2-mono pk-v2-kicker" x="52" y="62" fill="#131B10">portfolio / engineering systems</text>
     <text class="pk-v2-mono pk-v2-kicker" x="748" y="62" fill="#6B7063" text-anchor="end">Sonipat · India</text>
@@ -62,6 +72,10 @@
         <path d="M0 240H298" stroke="#FF4B0A" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 272">
           <animate attributeName="stroke-dashoffset" values="298;0" dur="9s" repeatCount="indefinite"/>
         </path>
+        <circle r="4" fill="#F4F3E9" opacity=".8">
+          <animateMotion path="M0 240H298" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".15;.8;.15" dur="9s" repeatCount="indefinite"/>
+        </circle>
       </g>
       <g class="pk-v2-mono pk-v2-kicker" fill="#AEB7A1">
         <text x="0" y="278">interface</text>
@@ -74,6 +88,11 @@
 
   <g class="pk-v2-mobile">
     <rect x="24" y="24" width="1152" height="472" rx="24" fill="#131B10"/>
+    <g class="pk-v2-hero-motion" opacity=".18">
+      <ellipse cx="310" cy="188" rx="330" ry="210" fill="url(#pkV2HeroAmbient)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;160 0;0 0" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
     <path d="M52 52H292" stroke="#FF4B0A" stroke-width="8"/>
     <text class="pk-v2-mono pk-v2-kicker pk-v2-mobile-kicker" x="52" y="102" fill="#AEB7A1">PK / systems engineer</text>
     <text class="pk-v2-display pk-v2-name pk-v2-mobile-name" x="48" y="230" fill="#F4F3E9">PREET</text>
